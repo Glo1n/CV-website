@@ -1,0 +1,6 @@
+color scheme: 	#0b0c10 = blackish
+				#1f2833 = dark purple greyish
+				#c5c6c7 = greyish
+				#66FCF1 = green bright
+				#45a29e = green darker saturated
+				
