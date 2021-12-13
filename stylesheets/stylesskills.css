@@ -4,12 +4,7 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
-
-body {
-  height: 91vh;
-  overflow-x: hidden;
-}
-
+/* header */
 nav .mainMenu li:hover {
   background: rgba(0, 0, 0, 0.24);
   border-radius: 20px;
@@ -60,98 +55,7 @@ a {
   display: none;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 80px;
-}
-
-.frontpage {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.frontpage p {
-  max-width: 500px;
-  text-align: center;
-  font-size: 1.1rem;
-  padding: 0px 20px 20px 20px;
-}
-
-.background {
-  background-color: #f2f2f2;
-  width: 100vw;
-  height: 300px;
-}
-
-.background img {
-  height: 350px;
-  width: 350px;
-  border-radius: 50% 50%;
-  border: solid white 7px;
-  margin-top: 40px;
-}
-
-h2 {
-  margin-top: 110px;
-  margin-bottom: 20px;
-  font-weight: 500;
-  font-size: 3rem;
-  font-family: Roboto, sans-serif;
-  color: #111111;
-}
-
-.quicknav {
-  display: flex;
-  flex-direction: column;
-  margin-top: 0px;
-  justify-content: center;
-  align-items: center;
-}
-
-.werkenschool {
-  display: inline-flex;
-}
-
-.quicknav button {
-  border-radius: 25px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #1f203a;
-  border: solid 1px #1f203a;
-  color: cornsilk;
-  padding: 10px;
-  margin: 20px 40px 30px;
-  cursor: pointer;
-}
-
-button:active {
-  transform: scale(0.98);
-  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-}
-
-button h3 {
-  padding-right: 15px;
-  padding-left: 15px;
-  font-weight: bold;
-}
-
-.copyright {
-  text-align: center;
-}
-
 @media screen and (max-width: 900px) {
-  .background img {
-    height: 300px;
-    width: 300px;
-    margin-top: 70px;
-  }
-
   nav .mainMenu {
     height: auto;
     position: fixed;
@@ -211,26 +115,6 @@ button h3 {
     right: 10px;
     z-index: 99;
   }
-
-  .naam h2 {
-    width: auto;
-    text-align: center;
-    position: fixed;
-    top: 17px;
-    left: 0;
-    right: 0;
-    margin: 0 40px;
-    font-size: 2.5rem;
-    color: cornsilk;
-    z-index: 1;
-  }
-
-  .frontpage p {
-    margin-top: 80px;
-    font-size: 1rem;
-    min-width: 350px;
-  }
-
   .material-icons.md-36 {
     font-size: 36px;
   }
@@ -239,6 +123,7 @@ button h3 {
     color: cornsilk;
   }
 }
+
 @media screen and (min-width: 901px) {
   .openMenu,
   .closeMenu {
@@ -254,30 +139,18 @@ button h3 {
     align-items: center;
   }
 }
+/* /header */
 
-@media screen and (max-width: 600px) {
-  .werkenschool {
-    display: block;
-  }
-
-  .werkenschool button {
-    margin-bottom: 10px;
-    margin-top: 10px;
-  }
-
-  .werkenschool h3 {
-    width: 137px;
-  }
-  .naam h2 {
-    font-size: 2rem;
-    padding-top: 5px;
-  }
+/* Under construction pic */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
 }
 
-@media screen and (max-width: 500px) {
-  .background img {
-    width: 275px;
-    height: 275px;
-    margin-top: 90px;
-  }
+main img {
+  border-radius: 15px;
 }
