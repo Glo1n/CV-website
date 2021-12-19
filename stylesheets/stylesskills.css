@@ -108,7 +108,7 @@ a {
   #contact {
     border-top: solid 2px cornsilk;
   }
-  .material-icons {
+  header .material-icons {
     display: block;
     position: fixed;
     top: 22px;
@@ -139,18 +139,132 @@ a {
     align-items: center;
   }
 }
-/* /header */
 
-/* Under construction pic */
+/* main */
 body {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #f2f2f2;
+  width: 100vw;
 }
 
-main img {
-  border-radius: 15px;
+main {
+  color: #1f203a;
+}
+
+.toptitel {
+  border-bottom: 1px solid #1f203a;
+  width: 90%;
+  margin: 100px 0 0 40px;
+  color: #1f203a;
+}
+
+section.skills {
+  display: flex;
+  margin-top: 20px;
+}
+
+.container {
+  margin-left: 60px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  background-color: white;
+  transition: transform 500ms ease-in-out;
+}
+
+.container:hover {
+  transform: scale(1.4);
+}
+
+.container img {
+  height: 60px;
+  width: 60px;
+  margin: 10px 0px 0px 10px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-dark {
+  color: #1f203a;
+}
+
+.imgskill {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.titel {
+  margin-left: 60px;
+  color: #1f203a;
+}
+
+.rating {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+h1 {
+  border-bottom: 1px solid #1f203a;
+  width: 90%;
+  margin: 30px 0 0 40px;
+  color: #1f203a;
+}
+
+.generator {
+  margin-left: 60px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  background-color: white;
+  transition: transform 500ms ease-in-out;
+  background-image: url(./backgroundimages/generator.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.generator:hover {
+  transform: scale(1.4);
+}
+
+.copycontainer {
+  text-align: center;
+}
+
+.portfolio a {
+  text-decoration: underline;
+  color: #1f203a;
+  padding: 0;
+}
+
+section.portfolio {
+  display: flex;
+  margin-top: 20px;
+}
+
+.website {
+  margin-left: 60px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  background-color: white;
+  transition: transform 500ms ease-in-out;
+  background-image: url(./backgroundimages/website.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.website:hover {
+  transform: scale(1.4);
 }
