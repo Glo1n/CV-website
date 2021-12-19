@@ -268,3 +268,62 @@ section.portfolio {
 .website:hover {
   transform: scale(1.4);
 }
+
+@media screen and (max-width: 900px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1.toptitel,
+  h1 {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+
+  h2.titel,
+  h3.titel {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .container,
+  .website,
+  .generator {
+    margin-left: 0px;
+    height: 250px;
+    width: 250px;
+  }
+
+  .container img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .material-icons.md-24 {
+    font-size: 24px;
+  }
+
+  h3 {
+    width: 100%;
+    text-align: left;
+  }
+
+  .top {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    color: cornsilk;
+    border: none;
+    text-align: center;
+    width: 280px;
+  }
+}
